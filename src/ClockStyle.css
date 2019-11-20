@@ -1,0 +1,24 @@
+
+body {
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('./digital-7/digital-7.ttf');
+}
+
+.time {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  padding: 10px;
+  width: 470px;
+  font-size: 130px;
+  color: red;
+  background-color: black;
+  border-style: solid;
+  border-color: red;
+  border-width: 10px;
+  font-family: 'digital-7', sans-serif;
+}
